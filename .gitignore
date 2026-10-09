@@ -41,3 +41,5 @@ modified_residues.json
 nohup*
 debug*
 .dsh/
+.DS_Store
+Thumbs.db
