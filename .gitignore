@@ -1,0 +1,43 @@
+# Ignore paramechem-parameters folders
+#./toppar
+__pycache__
+fake_slurm_shiva/
+fake_slurm/
+toppar/Ligands/
+toppar/mod_residues/
+simulation_output/
+input_structures/
+
+.ipynb_checkpoints
+automatize_cgenff.py
+targets/*
+plots/
+tmp/
+
+# Antechamber temp files
+ANTECHAMBER_*
+ATOMTYPE.INF
+sqm.in
+sqm.out
+
+# Logs and system files
+*.log
+
+# VS Code workspace settings
+.vscode/
+
+# Build pipeline temp files
+aligned_mol.pdb
+mod_mol.pdb
+opm_mol.pdb
+prepared_mol.pdb
+mol_solvated.pdb
+
+# Symlinks and misc
+etc/
+.gitmodules
+ligands.json
+modified_residues.json
+nohup*
+debug*
+.dsh/
